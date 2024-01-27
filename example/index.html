@@ -1,0 +1,27 @@
+<script
+	src="https://unpkg.com/tram-lite@5/output/import-components.js"
+	tl-components="../spoiler-tag.html"
+></script>
+<!-- <script src="../spoiler-tag.js"></script> -->
+
+<h1>Spoiler Tag Test</h1>
+
+<p>Thorn shouts to the surrounding crowd, <spoiler-tag>"Soylent Green is people!"</spoiler-tag></p>
+
+<style>
+	spoiler-tag.star-wars::part(control)::after {
+		background: green;
+		color: green;
+	}
+</style>
+<p>
+	Although Obi-Wan believes Luke is their only hope, Yoda asserts that
+	<spoiler-tag class="star-wars">"there is another."</spoiler-tag>
+</p>
+
+<p>
+	This is a placekitten example to show non-text spoiler
+	<spoiler-tag>
+		<img src="https://placekitten.com/408/287" />
+	</spoiler-tag>
+</p>

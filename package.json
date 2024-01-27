@@ -1,0 +1,27 @@
+{
+	"name": "spoiler-tag",
+	"version": "1.0.0",
+	"description": "Spoiler Tag Web Component written in Tram-Lite",
+	"main": "./spoiler-tag.js",
+	"files": [
+		"./spoiler-tag.html",
+		"./spoiler-tag.js"
+	],
+	"scripts": {
+		"start": "npx serve",
+		"build": "npx tram-lite export-components ./spoiler-tag.html --minified"
+	},
+	"keywords": [
+		"tram-lite",
+		"web-component",
+		"callout",
+		"alert",
+		"banner"
+	],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"serve": "^14.2.1",
+		"tram-lite": "^5.3.0"
+	}
+}

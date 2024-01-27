@@ -1,0 +1,45 @@
+<spoiler-tag>
+	<style>
+		span[aria-expanded='false'] {
+			display: inline-block;
+			position: relative;
+
+			&::after {
+				background: black;
+				border-radius: 0.5em;
+				cursor: pointer;
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				content: '';
+			}
+		}
+		span[aria-expanded='true'] {
+			color: inherit;
+			background: inherit;
+			cursor: inherit;
+		}
+	</style>
+	<span part="control" role="button" aria-label="Spoiler" tabindex="0" aria-expanded="false">
+		<span part="content" role="presentation" aria-hidden="true">
+			<slot></slot>
+		</span>
+	</span>
+	<script tl-effect>
+		const control = this.shadowRoot.querySelector('[part="control"]');
+		const content = this.shadowRoot.querySelector('[part="content"]');
+		control.addEventListener(
+			'click',
+			() => {
+				control.ariaLabel = null;
+				control.role = 'presentation';
+				control.tabIndex = -1;
+				content.ariaHidden = 'false';
+				control.ariaExpanded = 'true';
+			},
+			{ once: true }
+		);
+	</script>
+</spoiler-tag>
