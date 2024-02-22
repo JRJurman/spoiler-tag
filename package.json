@@ -1,6 +1,6 @@
 {
 	"name": "deco-spoiler-tag",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Spoiler Tag Web Component in Tram-Deco",
 	"main": "./spoiler-tag.html",
 	"scripts": {
