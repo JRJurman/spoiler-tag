@@ -2,7 +2,7 @@
 
 Spoiler Tag Web Component written in Tram-Deco
 
-[text "Thorn shouts to the surrounding crowd," and then there is black bar where there should be text](./preview.png)
+![text "Thorn shouts to the surrounding crowd," and then there is black bar where there should be text](./preview.png)
 
 [Live Example on Codepen](https://codepen.io/JRJurman/pen/zYbQzMg)
 
