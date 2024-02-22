@@ -1,15 +1,15 @@
-# spoiler-tag
+# deco-spoiler-tag
 
-Spoiler Tag Web Component written in Tram-Lite
+Spoiler Tag Web Component written in Tram-Deco
 
 [text "Thorn shouts to the surrounding crowd," and then there is black bar where there should be text](./preview.png)
 
-[Live Example on Codepen](https://codepen.io/JRJurman/pen/ZEPpKZg)
+[Live Example on Codepen](https://codepen.io/JRJurman/pen/zYbQzMg)
 
 ## How to use
 
 ```html
-<script src="https://unpkg.com/spoiler-tag@1"></script>
+<script src="https://unpkg.com/deco-spoiler-tag@1"></script>
 
 <p>
   Thorn shouts to the surrounding crowd,

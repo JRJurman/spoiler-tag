@@ -1,17 +1,14 @@
 {
-	"name": "spoiler-tag",
+	"name": "deco-spoiler-tag",
 	"version": "1.0.0",
-	"description": "Spoiler Tag Web Component written in Tram-Lite",
+	"description": "Spoiler Tag Web Component in Tram-Deco",
 	"main": "./spoiler-tag.html",
 	"scripts": {
 		"start": "npx serve"
 	},
 	"keywords": [
-		"tram-lite",
-		"web-component",
-		"callout",
-		"alert",
-		"banner"
+		"tram-deco",
+		"web-component"
 	],
 	"author": "",
 	"license": "ISC",
