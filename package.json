@@ -2,14 +2,9 @@
 	"name": "spoiler-tag",
 	"version": "1.0.0",
 	"description": "Spoiler Tag Web Component written in Tram-Lite",
-	"main": "./spoiler-tag.js",
-	"files": [
-		"./spoiler-tag.html",
-		"./spoiler-tag.js"
-	],
+	"main": "./spoiler-tag.html",
 	"scripts": {
-		"start": "npx serve",
-		"build": "npx tram-lite export-components ./spoiler-tag.html --minified"
+		"start": "npx serve"
 	},
 	"keywords": [
 		"tram-lite",
